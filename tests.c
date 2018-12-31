@@ -1,7 +1,4 @@
-#include "../prom/dga/dga.h"
 #include "errm.h"
-#include <dirent.h>
-#include <errno.h>
 #include <pthread.h>
 #include <setjmp.h>
 #include <signal.h>
@@ -11,7 +8,6 @@
 #include <sys/wait.h>
 #include <threads.h>
 #include <unistd.h>
-#include <wordexp.h>
 
 #include <cmocka.h>
 
